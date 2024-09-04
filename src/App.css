@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  max-width: 1200px;
+  min-width: 800px;
+  backgound-color: #fafafa;
+  margin: 0 auto;
+}
+
+.form-container{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #0f172a;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  background-color: #e2e8f0;
+  padding: 1.5rem;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+button{
+  background-color: #0d9488;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+input{
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+  margin-left: 30px;
+}
+
+.input-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.containerBoxWorking {
+  border: 2px solid #6ee7b7;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+
+}
+
+.done-button{
+  background-color: #f1f5f9;
+  border: 2px solid green;
+  color: #020617;
+  width: 70px;
+}
+.delete-button{
+  background-color: #f1f5f9;
+  border: 2px solid red;
+  color: #020617;
+  width: 70px;
+}
+
+.containerBoxWorking-parent{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  
+
+}
+
+.completedContainer {
+  margin-top: 20px;
 }
